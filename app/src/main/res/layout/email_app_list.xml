@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/sender_image"
+        android:layout_width="@dimen/image_view_size"
+        android:layout_height="@dimen/image_view_size"
+        android:layout_margin="@dimen/default_margin" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_toStartOf="@id/time_text_view"
+        android:layout_toEndOf="@id/sender_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/sender_pinterest"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/default_margin"
+        android:text="@string/time"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/subtitle_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text_view"
+        android:layout_toStartOf="@id/time_text_view"
+        android:layout_toEndOf="@id/sender_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/message_pinterest"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/content_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/content_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle_text_view"
+        android:layout_toEndOf="@id/sender_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/message_pinterest"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/content_text_size" />
+
+
+</RelativeLayout>

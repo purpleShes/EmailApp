@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EmailApp</string>
+    <string name="sender_pinterest">Pinterest</string>
+    <string name="message_pinterest">16 пінів, на які варто поглянути</string>
+    <string name="subject_message_pinterest">Нові піни</string>
+    <string name="email_title_placeholder">Анонім</string>
+    <string name="time">13:34</string>
+    <string name="to_text_view">Кому</string>
+    <string name="subject_text_view">Тема</string>
+    <string name="compose_text_view">Текст повідомлення</string>
+    <string name="new_email_activity_title">Написати</string>
+    <string name="checkbox_view">Додати діловий підпис</string>
+    <string name="send_button_view">Надіслати</string>
+    <string name="detailed_activity_title">Перегляд листа</string>
+
+</resources>
